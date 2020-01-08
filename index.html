@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Sign Up Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container sign-up-wrapper">
+        <div>
+            <h1 class="sign-up-title">Responsive HTML5 Sign UP Form</h1>
+            <a data-toggle="modal" data-target="#sign-modal" class="btn btn-block btn-success">Sign Up</a>
+            <div class="modal fade" id="sign-modal">
+                <div class="modal-dialog modal-md">
+
+                    <div class="modal-content modal-style">
+                        <div class="modal-header text-white border-o">
+                            <bitton class="close" data-dismiss="modal">
+                                <span class="text-white">&times;</span>
+                            </bitton>
+                            <h5>Create your Account</h5>
+                        </div>
+
+                        <div class="modal-body pt-0 pb-0">
+
+                            <form action="" class="form-style">
+                                <div class="form-group has-success">
+                                    <label for="name" class="text-uppercase control-label">
+                                        Full Name
+                                    </label>
+                                    <input type="text" name="name" id="name" class="form-control"
+                                        placeholder="Enter your full name">
+                                </div>
+
+                                <div class="form-group has-success">
+                                    <label for="email" class="text-uppercase control-label">
+                                        Email
+                                    </label>
+                                    <input type="email" id="email" name="email" class="form-control"
+                                        placeholder="Enter your email">
+                                </div>
+
+                                <div class="form-group has-success">
+                                    <label for="password" class="text-uppercase control-label">
+                                        Password
+                                    </label>
+                                    <input type="password" id="password" name="password" class="form-control"
+                                        placeholder="Enter your password">
+                                </div>
+
+                                <div class="form-group has-success">
+                                    <label for="password-confirm" class="text-uppercase control-label">
+                                        Confirm Password
+                                    </label>
+                                    <input type="password" id="password-confirm" name="password-confirm"
+                                        class="form-control" placeholder="Confirm your password">
+                                </div>
+
+                                <div class="checkbox"><label for="" class="font-11px text-muted">
+                                        <input type="checkbox">
+                                        Agree to our terms and conditions?
+                                    </label></div>
+                            </form>
+                        </div>
+                        <!--End .modal-body-->
+
+
+                        <div class="modal-footer border-0">
+                            <a data-dismiss="modal" data-target="#sign-modal" class="text-white btn btn-link">cancel</a>
+                            <a href="#" class="btn btn-success">Sign Up</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        // Show modal on initial page load
+        $("#sign-modal").modal("show");
+
+    </script>
+
+</body>
+
+</html>

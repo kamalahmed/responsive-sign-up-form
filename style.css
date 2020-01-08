@@ -1,0 +1,85 @@
+body{
+    background-image: url("images/signup.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    color: #ffffff;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+
+}
+.sign-up-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sign-up-title{
+    color: inherit;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.border-0{
+    border: none;
+}
+.pt-0{
+    padding-top: 0;
+}
+.pb-0{
+    padding-bottom: 0;
+}
+
+.modal-style{
+    background-image: url("images/signup.jpg");
+    background-position: center top;
+    background-size: cover;
+    border-radius: 5px;
+    color: #fff;
+
+}
+.modal-style h5{
+    color: inherit;
+}
+.form-style {
+    margin-left: 40px;
+    margin-right: -60px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    padding-right: 45px;
+}
+
+.form-style input {
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.form-style .form-group label {
+    font-weight: 700;
+}
+
+.form-style .form-group label {
+    font-weight: 700;
+}
+
+.modal-style h5{
+    margin-top: 5px;
+}
+
+.text-white {
+    color: #fff;
+}
+.mt-25vh {
+    margin-top: 25vh;
+}
+.font-11px {
+    font-size: 11px;
+}
+.btn-success{
+    width: 200px;
+} 
+
+#sign-modal{
+    top: 10%;
+}
